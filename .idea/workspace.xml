@@ -1,209 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_INJECTED_CODE" value="false" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a403f313-2581-4d09-9360-ae68eec6feec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/projectBuilder.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap/_media.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap/mixins/_border-radius.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap/mixins/_screen-reader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap/mixins/_visibility.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/bootstrap/utilities/_stretched-link.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/static/authentication/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authentication/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/animate.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/default-skin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/icomoon.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/jquery.fancybox.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/jquery.mCustomScrollbar.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/meanmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/nice-select.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/slick.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/about-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/banner-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/banner-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/blog-bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/blog-img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/blog-img1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/blog-img2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/blog-img3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/call-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/icon-8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/img-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/img-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/img-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/img-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/img-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/mail-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/map-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/play-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/images/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/jquery-3.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/jquery.mCustomScrollbar.concat.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/modernizer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/plugin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/static/dashboard/js/slider-setting.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/about.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/portfolio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/templates/service.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dashboard/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBuilder/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBuilder/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBuilder/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBuilder/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectBuilder/wsgi.py" afterDir="false" />
+    <list default="true" id="a403f313-2581-4d09-9360-ae68eec6feec" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,6 +28,21 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "lonewolf4268"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lonewolf4268/projectbuilder",
+    "accountId": "9efe8b1b-aa87-42f6-a2c7-59579b7e904b"
+  }
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
@@ -250,6 +70,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "editor.preferences.import",
     "typescript.add.unambiguous.imports.on.the.fly": "true",
     "vue.rearranger.settings.migration": "true"
@@ -315,11 +136,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724583280179</updated>
-      <workItem from="1724583281667" duration="31028000" />
+      <workItem from="1724583281667" duration="32363000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1724635205812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724635205812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
