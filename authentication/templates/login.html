@@ -12,6 +12,77 @@
 
     <link rel="stylesheet" href="{% static 'authentication/css/style.css' %}">
 
+    <style>
+        body {
+            background: #f7f7f7;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .ftco-section {
+            padding: 7em 0;
+        }
+
+        .img::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+
+        .login-form button[type="submit"] {
+            background-color: #252f2d;
+            color: white;
+            font-size: medium;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+            width: 100%;
+        }
+
+        .login-form button[type="submit"]:hover {
+            background-color: #F5C729;
+        }
+
+        .login-form a.nav-link {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .login-form a.nav-link:hover {
+            color: #F5C729;
+        }
+
+        .login-form .text {
+            text-align: center;
+        }
+
+        /* Styles for 'Read More' button, keeping it the same*/
+        .login-form .readmore_bt {
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 15px;
+        }
+
+        .login-form .readmore_bt a:hover {
+            color: #fff;
+        }
+    </style>
+
 </head>
 <body>
 <section class="ftco-section">
@@ -24,7 +95,7 @@
                     <h3 class="text-center mb-0">Welcome</h3>
                     <p class="text-center">Sign in by entering the information below</p>
                     <form method="post" action="{% url 'login' %}" class="login-form">
-                    {% csrf_token %}
+                        {% csrf_token %}
                         <div class="form-group">
                             <div class="icon d-flex align-items-center justify-content-center"><span
                                     class="fa fa-user"></span></div>
@@ -37,23 +108,22 @@
                         </div>
                         <div class="form-group d-md-flex">
                             <div class="w-100 text-md-right">
-                                <a href="#">Forgot Password</a>
+                                <a href="#" class="nav-link">Forgot Password</a>
                             </div>
                         </div>
                         <div class="form-group d-md-flex">
                             <div class="w-100 text-md-center">
-                                    <p class="text-danger" id="error-message"> {% if error %} {{ error }} {% endif %} </p>
+                                <p class="text-danger" id="error-message"> {% if error %} {{ error }} {% endif %} </p>
                             </div>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn form-control btn-primary rounded submit px-3">Log In
-                            </button>
+                            <button type="submit" class="text-white">Log In</button>
                         </div>
-                    </form>
-                    <div class="w-100 text-center mt-4 text">
+                    <div class="form-group w-100 text-center mt-4 text">
                         <p class="mb-0">Don't have an account?</p>
-                        <a href="{%  url 'register' %}">Sign Up</a>
+                        <a href="{%  url 'register' %}" class="nav-link">Sign Up</a>
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -67,4 +137,3 @@
 
 </body>
 </html>
-
